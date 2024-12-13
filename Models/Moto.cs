@@ -9,10 +9,11 @@ namespace ProjetoSistema.Models
 
         }
 
-        public Moto(string name, double id, double placa, string cor, int cilindrada, double ano)
+        public Moto(string marca, string modelo, int id, string placa, string cor, int cilindrada, int ano)
         {
-            Name = name;
+            Modelo = Modelo;
             Id = id;
+            Marca = marca;
             Placa = placa;
             Cor = cor;
             Cilindrada = cilindrada;
@@ -21,17 +22,17 @@ namespace ProjetoSistema.Models
 
         [Display (Name = "Modelo")]
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
-        public string Name { get; set; }
+        public string Modelo { get; set; }
 
-        public double Id { get; set; }
+        public string Marca { get; set; }
 
-        [Display(Name = "Número")]
-        public double Placa { get; set; }
+        public int Id { get; set; }
+        public string Placa { get; set; }
 
         public string Cor { get; set; }
 
         public int Cilindrada { get; set; }
 
-        public double Ano { get; set; }
+        public int Ano { get; set; }
     }
 }

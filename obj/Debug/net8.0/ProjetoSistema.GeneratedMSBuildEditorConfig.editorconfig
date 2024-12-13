@@ -32,8 +32,24 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/negat/Desktop/ProjetoDeSistemas/RepositorioTemporario/Views/Motos/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW90b3NcSW5kZXguY3NodG1s
+[C:/Users/negat/Desktop/ProjetoDeSistemas/RepositorioTemporario/Views/Moto/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW90b1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/negat/Desktop/ProjetoDeSistemas/RepositorioTemporario/Views/Moto/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW90b1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/negat/Desktop/ProjetoDeSistemas/RepositorioTemporario/Views/Moto/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW90b1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/negat/Desktop/ProjetoDeSistemas/RepositorioTemporario/Views/Moto/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW90b1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/negat/Desktop/ProjetoDeSistemas/RepositorioTemporario/Views/Moto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW90b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/negat/Desktop/ProjetoDeSistemas/RepositorioTemporario/Views/Shared/Error.cshtml]

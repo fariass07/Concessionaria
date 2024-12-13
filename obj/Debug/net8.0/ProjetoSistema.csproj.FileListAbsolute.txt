@@ -476,7 +476,6 @@ C:\Users\negat\Desktop\ProjetoDeSistemas\RepositorioTemporario\obj\Debug\net8.0\
 C:\Users\negat\Desktop\ProjetoDeSistemas\RepositorioTemporario\obj\Debug\net8.0\ProjetoSistema.pdb
 C:\Users\negat\Desktop\ProjetoDeSistemas\RepositorioTemporario\obj\Debug\net8.0\ProjetoSistema.genruntimeconfig.cache
 C:\Users\negat\Desktop\ProjetoDeSistemas\RepositorioTemporario\obj\Debug\net8.0\ref\ProjetoSistema.dll
-C:\Users\negat\Desktop\ProjetoDeSistemas\RepositorioTemporario\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\negat\Desktop\ProjetoDeSistemas\RepositorioTemporario\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\negat\Desktop\ProjetoDeSistemas\RepositorioTemporario\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\negat\Desktop\ProjetoDeSistemas\RepositorioTemporario\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
