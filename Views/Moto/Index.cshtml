@@ -13,7 +13,6 @@
     <thead>
         <tr>
             <th>@Html.DisplayNameFor(model => model.Modelo)</th>
-            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -21,7 +20,7 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Modelo)
+                    @Html.DisplayFor(modelItem => item.Marca) @Html.DisplayFor(modelItem => item.Modelo)
                 </td>
                 <td>
                     <a type="button"

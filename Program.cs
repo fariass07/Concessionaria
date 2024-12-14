@@ -1,4 +1,3 @@
-using Bookstore.Services.Seeding;
 using Microsoft.EntityFrameworkCore;
 using ProjetoSistema.Data;
 using ProjetoSistema.Services;
@@ -16,7 +15,7 @@ namespace ProjetoSistema
             builder.Services.AddScoped<MotoService, MotoService>(); // Register MotoService
             builder.Services.AddScoped<MotoContext, MotoContext>();
 
-            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection"); // Use correct key
+            var connectionString = builder.Configuration.GetConnectionString("MotoContext"); // Use correct key
             builder.Services.AddDbContext<MotoContext>(options =>
             {
                 options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
@@ -29,14 +28,9 @@ namespace ProjetoSistema
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
-
-            if (!app.Environment.IsDevelopment())
-            {
-                app.UseExceptionHandler("/Home/Error");
-                app.UseHsts();
-            }
             else
             {
+                // Criamos um escopo de execução nos serviços, usamos o GetRequiredService para selecionar o serviço a ser executado e selecionamos o método Seed
                 app.Services.CreateScope().ServiceProvider.GetRequiredService<SeedingService>().Seed();
             }
 
